@@ -18,7 +18,7 @@
 
         i {
             font-size: 56px;
-            color: #fe5a0e;
+            color: #EE1B24;
         }
 
         h3 {
@@ -45,14 +45,14 @@
         opacity: 0;
         transform: translateY(-50%);
         transition: all .3s ease-in-out;
-        border-bottom: 3px solid #fe5a0e;
+        border-bottom: 3px solid #EE1B24;
         background: #1B1B1B;
         padding-top: 30px;
         padding-bottom: 30px;
 
         h3 {
             margin: 0;
-            color: #FE5A0E;
+            color: #EE1B24;
             font-size: 20px;
             font-family: 'Poppins';
             font-weight: 600;
@@ -100,7 +100,7 @@
         transform: translateY(-50%);
 
         &:hover {
-            background: #FE5A0E;
+            background: #EE1B24;
         }
     }
 
@@ -143,7 +143,7 @@
             width: 41px;
 
             i {
-                color: #fe5a0e;
+                color: #EE1B24;
                 font-size: 41px;
                 line-height: 1em;
                 display: block;
@@ -177,7 +177,7 @@
         opacity: 0;
         transition: all .4s ease-in-out;
         transform: translateY(-40%);
-        border-top: 3px solid #FE5A0E;
+        border-top: 3px solid #EE1B24;
 
         .box {
             display: table;
@@ -200,7 +200,7 @@
             width: 41px;
 
             i {
-                color: #fe5a0e;
+                color: #EE1B24;
                 font-size: 41px;
                 line-height: 1em;
                 display: block;
@@ -231,7 +231,7 @@
             }
 
             a.more {
-                color: #FE5A0E;
+                color: #EE1B24;
                 font-family: 'Poppins';
                 font-size: 13px;
                 font-weight: 600;
@@ -290,7 +290,7 @@
     }
 
     .owl-dots .owl-dot.active span {
-        background: #FE5A0E;
+        background: #EE1B24;
     }
 }
 
@@ -321,7 +321,7 @@
 
         .inner {
             padding-bottom: 40px;
-            background: #FE5A0E;
+            background: #EE1B24;
             transition: all .4s ease;
 
             &:before {
@@ -376,7 +376,7 @@
                 font-size: 15px;
                 font-weight: 600;
                 font-family: 'Poppins';
-                color: #FE5A0E;
+                color: #EE1B24;
                 display: block;
                 margin-top: 10px;
                 opacity: 0;
@@ -391,7 +391,7 @@
                 box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 1px, $spread: 0, $size: 18px, $opacity: 20%);
 
                 .icon-box {
-                    background: #FE5A0E;
+                    background: #EE1B24;
 
                     i {
                         color: #fff;
@@ -441,7 +441,7 @@
     .row {
         [class*=col-]:nth-child(1) {
             .single-service-style-four .img-box .box .content h3 span {
-                color: #FE5A0E;
+                color: #EE1B24;
             }
         }
 
@@ -518,7 +518,7 @@
                 a.more {
                     width: 121px;
                     height: 38px;
-                    background: #FE5A0E;
+                    background: #EE1B24;
                     color: #fff;
                     font-size: 16px;
                     font-family: 'Poppins';
@@ -539,7 +539,7 @@
 }
 
 .gas.single-service-style-four .img-box .box .content h3 span {
-    color: #FE5A0E;
+    color: #EE1B24;
 }
 
 .chemical.single-service-style-four .img-box .box .content h3 span {
@@ -585,7 +585,7 @@
             width: 16px;
             height: 16px;
             background: #fff;
-            border: 2px solid #FD5912;
+            border: 2px solid #EE1B24;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -608,7 +608,7 @@
             opacity: 1;
             transition: all .4s ease;
             border-radius: 50%;
-            background: #FD5912;
+            background: #EE1B24;
             z-index: 2;
         }
     }
@@ -641,7 +641,7 @@
         transform: translateY(0%);
 
         &:hover {
-            background: #FE5A0E;
+            background: #EE1B24;
         }
     }
 

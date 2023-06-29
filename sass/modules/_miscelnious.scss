@@ -90,7 +90,7 @@ a:active {
         + p {margin-top: 21px;}
     }    
     p {color: #555555;margin: 0;font-size: 18px;line-height: 28px;}
-    span {color: #FE5A0E;}
+    span {color: #EE1B24;}
     &.light {
         h3 {color: #fff;
             &:after {background:#fff;}
@@ -115,7 +115,7 @@ a:active {
     width: 50px;
     height: 50px;
     text-align: center;
-    background: rgba(#fe5a0e, .75);
+    background: rgba(#EE1B24, .75);
     color: #262626;
     font-size: 17px;
     line-height: 50px;
@@ -126,7 +126,7 @@ a:active {
     transition: all .4s ease;
 
     &:hover {
-        background: #fe5a0e;
+        background: #EE1B24;
         color: #fff;
     }
 }
@@ -147,7 +147,7 @@ body.active-preloader-ovh {
 }
 
 .preloader {
-    background-color: #FE5A0E;
+    background-color: #EE1B24;
     height: 100%;
     left: 0;
     position: fixed;

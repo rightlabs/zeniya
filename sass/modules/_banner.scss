@@ -58,7 +58,7 @@
     top: 50%; // border-radius: 0;
     z-index: 99;
     &:hover {
-        background:rgba(#fe5a0e, 1);
+        background:rgba(#EE1B24, 1);
     }
     @media (max-width: 667px) {
         width: 30px;
@@ -207,7 +207,7 @@
             font-weight: 600;
             width: 46%;
             animation-delay: .5s;
-            span { color: #FE5A0E;}
+            span { color: #EE1B24;}
             + a.banner-btn {margin-top: 40px;}
         }
         p {
@@ -222,7 +222,7 @@
             animation-delay: 1s;            
         }
         a.banner-btn {
-            background:#fe5a0e;
+            background:#EE1B24;
             color: #fff;
             font-size: 16px;
             font-weight: 600;
@@ -356,7 +356,7 @@
     color: #ffffff;
     font-size: 45px;
     font-weight: 600;
-    span { color: #FE5A0E;}
+    span { color: #EE1B24;}
 }
 
 .main-slider h2.dark-text {
@@ -467,7 +467,7 @@
 }
 
 .main-slider .theme-btn {
-    background:#fe5a0e;
+    background:#EE1B24;
     color: #fff;
     font-size: 16px;
     font-weight: 600;

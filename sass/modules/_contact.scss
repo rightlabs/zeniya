@@ -6,12 +6,12 @@
 
 .contact-info-style-one {
 	background:#262626;
-	border-bottom: 3px solid #FE5A0E;
+	border-bottom: 3px solid #EE1B24;
 	padding: 50px 0;
 	.title {
 		h3, p {margin: 0;}
 		h3 {font-family: 'Poppins';font-weight: 600;color: #FFFFFF;font-size: 32px;
-			span {color: #FE5A0E;}
+			span {color: #EE1B24;}
 			&:after {
 				display: inline-block;
 				vertical-align: bottom;
@@ -39,7 +39,7 @@
 			.text-box {
 				padding-left: 20px;
 				h3, p {margin: 0;}
-				h3 {font-size: 28px;font-family: 'Poppins';color: #FE5A0E;font-weight: 600;}
+				h3 {font-size: 28px;font-family: 'Poppins';color: #EE1B24;font-weight: 600;}
 				p {font-size: 18px;font-family: 'Poppins';color: #FFFFFF;}
 			}
 		}
@@ -58,7 +58,7 @@
 		}
 		textarea {height: 144px;margin-bottom: 25px;padding-top: 15px;}
 		label.error {display: none !important;}
-		button {display: inline-block;width: 100%;height: 45px;border: none;outline: none;background:#FE5A0E;color: #FFFFFF;font-size: 16px;font-family: 'Poppins';font-weight: 600;line-height: 45px;
+		button {display: inline-block;width: 100%;height: 45px;border: none;outline: none;background:#EE1B24;color: #FFFFFF;font-size: 16px;font-family: 'Poppins';font-weight: 600;line-height: 45px;
 			&:before {background:#252525;}
 		}
 	}
@@ -78,7 +78,7 @@
 			right:0;
 			height: 100%;
 			width: 100000px;
-			background:#FE5A0E;
+			background:#EE1B24;
 			opacity: .85;
 		}
 		.inner {

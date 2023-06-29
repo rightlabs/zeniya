@@ -57,7 +57,7 @@
             }
             &.active {
                 .accrodion-title {                    
-                    h4 {color: #FE5A0E;}
+                    h4 {color: #EE1B24;}
                     h4:before {                    
                         content: "\f062";
                         font-weight: 900;
@@ -68,7 +68,7 @@
             }
         }
     }
-    a.more-info {color: #FE5A0E;font-size: 16px;font-weight: 600;font-family: 'Poppins';letter-spacing: .01em;display: inline-block;margin-top: 35px;transition: all .4s ease;margin-left: 0;
+    a.more-info {color: #EE1B24;font-size: 16px;font-weight: 600;font-family: 'Poppins';letter-spacing: .01em;display: inline-block;margin-top: 35px;transition: all .4s ease;margin-left: 0;
         &:hover {margin-left: 10px;}
     }
 }

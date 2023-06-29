@@ -91,7 +91,7 @@
                     span.count {
                         float: right;
                     }
-                    &:hover {color: #FE5A0E;}
+                    &:hover {color: #EE1B24;}
                 }
             }
         }
@@ -117,7 +117,7 @@
                         font-family: 'Poppins';
                         transition: all .4s ease;
                         &:hover {
-                        	color: #FE5A0E;
+                        	color: #EE1B24;
                         }
                     }
                     a.date {
@@ -136,7 +136,7 @@
 				& {margin-left: -5px;margin-right: -5px;}
 				li {display: inline-block;vertical-align: middle;padding: 0 5px;margin-bottom: 10px;}
 				li a {display: block;border: 1px solid #F5F9FF;color: #555555;font-size: 15px;line-height: 1em;padding: 10px 19px;transition: all .4s;background:#F5F9FF;
-					&:hover {color: #fff;border-color: #FE5A0E;background:#FE5A0E;}
+					&:hover {color: #fff;border-color: #EE1B24;background:#EE1B24;}
 				}
             }
         }
@@ -152,7 +152,7 @@
                             content: '';
                             width: 6px;
                             height: 0;
-                            background:#FD5912;
+                            background:#EE1B24;
                             position: absolute;
                             top:0;
                             left: 0;
@@ -176,7 +176,7 @@
                 i {font-size: 25px;margin-right: 13px;line-height: 45px;position: absolute;top: 50%;left: 30px;transform: translateY(-50%);}
                 + a {margin-top: 15px;}
                 &:hover {background:#252525;color: #FFFFFF;
-                    i {color: #FD5912;}
+                    i {color: #EE1B24;}
                 }
             }
         }

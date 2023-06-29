@@ -42,7 +42,7 @@
                 transition: all .4s ease;
 
                 &:hover {
-                    color: #FE5A0E;
+                    color: #EE1B24;
                 }
 
                 +a {
@@ -62,7 +62,7 @@
             margin-bottom: 10px;
 
             &:hover {
-                color: #FE5A0E;
+                color: #EE1B24;
             }
         }
 
@@ -74,7 +74,7 @@
         }
 
         a.read-more {
-            color: #FE5A0E;
+            color: #EE1B24;
             font-family: 'Poppins';
             font-weight: 600;
             transition: all .3s ease;
@@ -141,7 +141,7 @@
                 background: #262626;
 
                 h3 {
-                    color: #FE5A0E;
+                    color: #EE1B24;
                 }
 
                 p,
@@ -156,7 +156,7 @@
             padding: 16px 30px;
 
             a {
-                color: #FE5A0E;
+                color: #EE1B24;
                 font-size: 16px;
                 font-weight: 600;
                 font-family: 'Poppins';
@@ -209,19 +209,19 @@
     	padding-top: 35px;
 		padding-bottom: 35px;
     	h3 {margin: 0;font-size: 28px;font-weight: 600;font-family: 'Poppins';color: #262626;transition: all .4s ease;line-height: 1.25em;
-			&:hover {color: #FE5A0E;}
+			&:hover {color: #EE1B24;}
     	}
     	.meta-info {
     		margin-top: 20px;
     		margin-bottom: 20px;
     		a {color: #555555;font-size: 15px;font-family: 'Poppins';transition: all .4s ease;
-    			&:hover {color: #FE5A0E;}
-				i {color: #FE5A0E;font-size: 12px;margin-right: 4px;}
+    			&:hover {color: #EE1B24;}
+				i {color: #EE1B24;font-size: 12px;margin-right: 4px;}
 				+ a {margin-left: 13px;}
     		}
     	}
     	p {color: #555555;font-size: 16px;line-height: 28px;margin: 0;}
-    	a.more {display: inline-block;width: 202px;height: 54px;text-align: center;color: #fff;font-family: 'Poppins';font-size: 16px;font-weight: 600;line-height: 54px;transition: all .4s ease;background:#FE5A0E;margin-top: 25px;
+    	a.more {display: inline-block;width: 202px;height: 54px;text-align: center;color: #fff;font-family: 'Poppins';font-size: 16px;font-weight: 600;line-height: 54px;transition: all .4s ease;background:#EE1B24;margin-top: 25px;
 			&:before {
 				background:#252525;
 			}
@@ -359,7 +359,7 @@
                     margin-bottom: 15px;
                 }
                 p {font-size: 15px;color: #514A47;line-height: 27px;margin-top: 15px;}
-                a.reply {color: #FFFFFF;font-size: 15px;font-weight: 500;width: 82px;height: 35px;background:#FE5A0E;border-radius: 17.5px;line-height: 35px;position: absolute;top:25px;right: 25px;display: inline-block;text-align: center;transition: all .4s ease;
+                a.reply {color: #FFFFFF;font-size: 15px;font-weight: 500;width: 82px;height: 35px;background:#EE1B24;border-radius: 17.5px;line-height: 35px;position: absolute;top:25px;right: 25px;display: inline-block;text-align: center;transition: all .4s ease;
                     &:hover {background:#252525;}
                 }
             }
@@ -410,7 +410,7 @@
         button.thm-btn {
             border: none;
             outline: none;
-            width: 202px;height: 54px;line-height: 54px;text-align: center;background:#FE5A0E;font-size: 16px;border-radius: 0px;display: inline-block;vertical-align: middle;margin-left: auto;margin-right: auto;color: #fff;font-family: 'Poppins';font-weight: 600;
+            width: 202px;height: 54px;line-height: 54px;text-align: center;background:#EE1B24;font-size: 16px;border-radius: 0px;display: inline-block;vertical-align: middle;margin-left: auto;margin-right: auto;color: #fff;font-family: 'Poppins';font-weight: 600;
             &:before {background:#252525;}
         }
     }

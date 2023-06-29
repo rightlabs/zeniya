@@ -3,7 +3,7 @@
 		position: relative;
 		> img {position: relative;z-index: 3;}
 		.name-box {width: 90%;position: absolute;bottom: 65px;
-			.inner {background:#FE5A0E;color: #FFFFFF;font-size: 18px;line-height: 1.2em;font-weight: 600;font-family: 'Poppins';padding: 17px 0;z-index: 4;position: relative;}
+			.inner {background:#EE1B24;color: #FFFFFF;font-size: 18px;line-height: 1.2em;font-weight: 600;font-family: 'Poppins';padding: 17px 0;z-index: 4;position: relative;}
 			&:after {
 				content: '';
 				position: absolute;
@@ -22,7 +22,7 @@
 		.social {
 			margin-top: 5px;
 			a {color: #262626;font-size: 16px;transition: all .4s ease;
-				&:hover {color: #FE5A0E;}
+				&:hover {color: #EE1B24;}
 				+ a {margin-left: 11px;}
 			}
 		}
@@ -53,7 +53,7 @@
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background:rgba(#FE5A0E, .75);
+			background:rgba(#EE1B24, .75);
 			display: flex;
 			align-items: center;
 			border-radius: 50%;
@@ -97,7 +97,7 @@
         transform: translateY(-50%);
 
         &:hover {
-            background: #FE5A0E;
+            background: #EE1B24;
         }
     }
 

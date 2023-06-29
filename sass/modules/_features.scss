@@ -4,7 +4,7 @@
 		padding: 0;
 	}
 	[class*=col-md]:nth-child(2) {
-		background:#FE5A0E;
+		background:#EE1B24;
 		padding: 0;
 	}
 	[class*=col-md]:nth-child(3) {
@@ -60,7 +60,7 @@
 	h3, p {margin: 0;transition: all .4s ease;}
 	h3 {font-size: 22px;line-height: 27px;color: #252525;font-family: 'Poppins';font-weight: 600;letter-spacing: -0.025em;margin-top: 18px;margin-bottom: 10px;}
 	p {font-size: 15px;line-height: 27px;color: #545454;width: 73%;margin-left: auto;margin-right: auto;}
-	&:before {background:#FD5912;}
+	&:before {background:#EE1B24;}
 	&:hover {
 		h3, p, i {color: #fff;}
 	}
