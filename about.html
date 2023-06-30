@@ -28,7 +28,16 @@
 </head>
 
 <body class="_active-preloader-ovh">
-
+    <style>
+        .bg-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
     <div class="preloader">
         <div class="spinner"></div>
     </div> <!-- /.preloader -->
@@ -39,7 +48,8 @@
             <div class="container">
                 <div class="logo pull-left">
                     <a href="index.html">
-                        <img src="img/logo2-1.png" width="200" alt="Awesome Image" />
+                        <img src="img/logo2-1.png" style="padding-top: 10px !important;" width="200"
+                            alt="Awesome Image" />
                     </a>
                 </div><!-- /.logo -->
                 <div class="header-right-info pull-right">
@@ -73,17 +83,20 @@
                     <div class="single-header-right-info">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button class="side-nav-toggler side-nav-opener"><i class="fa fa-bars"></i></button>
+                            <button class="side-nav-toggler side-nav-opener"
+                                style="background: transparent; border: none; outline: none;">
+                                <i class="fa fa-bars"></i>
+                            </button>
                         </div>
                     </div>
                 </div><!-- /.header-right-info -->
             </div><!-- /.container -->
         </div><!-- /.header-top home-one -->
 
-        <div class="inner-banner">
+        <div class="inner-banner" style="position: relative;">
             <div class="container">
                 <h3>About Us</h3>
-                <ul class="breadcumb">
+                <ul class="breadcumb bg-overlay">
                     <li><a href="index.html">Home</a></li><!--
                 -->
                     <li><span class="sep"><i class="fa fa-angle-right"></i></span></li><!--
@@ -111,7 +124,8 @@
                             <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
                                 vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut
                                 odit aut fugit, sed quia conse quuntur.</p>
-                            <a href="//www.youtube.com/watch?v=tVwWF-amqV4" class="about-btn hvr-sweep-to-right video-popup">See Video</a>
+                            <a href="//www.youtube.com/watch?v=tVwWF-amqV4"
+                                class="about-btn hvr-sweep-to-right video-popup">See Video</a>
                         </div><!-- /.about-content -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
