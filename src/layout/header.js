@@ -17,8 +17,8 @@ export default function Header({ style }) {
                   <a href="/">Home</a>
                 </li>
                 <li className="shape">
-                  <a href="/project">Panel Manufacturing Division</a>
-                  <div className="submenu_wrap">
+                  <a href="/panel">Panel Manufacturing Division</a>
+                  {/* <div className="submenu_wrap">
                     <ul>
                       <li>
                         <a href="/project">Project</a>
@@ -27,11 +27,11 @@ export default function Header({ style }) {
                         <a href="/project-single">Project Single</a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </li>
                 <li className="shape">
-                  <a href="/project">EPC Division</a>
-                  <div className="submenu_wrap">
+                  <a href="/epc">EPC Division</a>
+                  {/* <div className="submenu_wrap">
                     <ul>
                       <li>
                         <a href="/project">Project</a>
@@ -40,7 +40,7 @@ export default function Header({ style }) {
                         <a href="/project-single">Project Single</a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </li>
                 {/* <li className="shape">
                   <a href="/service">Services</a>
@@ -77,9 +77,7 @@ export default function Header({ style }) {
               </ul>
             </div>
             <div className="purchase_button">
-              <a href="https://themeforest.net/user/trendycoder/portfolio">
-                Contact Us
-              </a>
+              <a href="/contact">Contact Us</a>
             </div>
             <div className="logo_wrap">
               <img src="img/desktop-logo.png" alt="" />

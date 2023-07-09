@@ -546,7 +546,7 @@ img.svg {
   display: inline-block;
   position: relative;
 }
-.glax_tm_header_wrap .header_inner_wrap .menu_wrap > ul > li.shape > a:before {
+/* .glax_tm_header_wrap .header_inner_wrap .menu_wrap > ul > li.shape > a:before {
   position: absolute;
   content: "";
   border: 5px solid transparent;
@@ -554,7 +554,7 @@ img.svg {
   left: 100%;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 .glax_tm_header_wrap .purchase_button a {
   text-decoration: none;
   text-transform: uppercase;
@@ -587,14 +587,14 @@ img.svg {
   > a {
   color: #000;
 }
-.glax_tm_header_wrap[data-style="light"]
+/* .glax_tm_header_wrap[data-style="light"]
   .header_inner_wrap
   .menu_wrap
   > ul
   > li
   > a:before {
   border-top-color: #000000;
-}
+} */
 .glax_tm_header_wrap[data-style="light"] .purchase_button a {
   color: #000000;
 }
@@ -2320,6 +2320,11 @@ img.svg {
   color: #666;
   margin-bottom: 30px;
 }
+.projectDesp {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+}
 .glax_tm_twice_box_wrap .inner_box .rightbox {
   width: 100%;
   height: auto;
@@ -2340,7 +2345,7 @@ img.svg {
   margin-bottom: 30px;
 }
 .glax_tm_principles_wrap .title_wrap span {
-  font-family: "Raleway";
+  font-family: "Rubik";
   font-size: 18px;
   text-transform: uppercase;
   color: #181a2f;
@@ -2523,6 +2528,14 @@ img.svg {
 .glax_tm_universal_parallax_wrap .main_bg .overlay_image.responsibility {
   background-image: url(../img/slider/8.jpg);
 }
+
+.glax_tm_main_responsibility_wrap {
+  width: 100%;
+}
+.glax_tm_main_responsibility_wrap .react-parallax > img {
+  height: 140% !important;
+}
+
 .glax_tm_universal_parallax_wrap .main_bg .overlay_color.responsibility {
   background-color: rgba(17, 17, 25, 0.9);
 }
@@ -2556,6 +2569,10 @@ img.svg {
   color: #eeeeee;
   font-weight: 400;
   line-height: 1.3;
+}
+
+.glax_tm_experience_box .top p span {
+  font-size: 32px;
 }
 .glax_tm_experience_box .bottom {
   display: flex;
@@ -2591,7 +2608,7 @@ img.svg {
 .glax_tm_main_responsibility_wrap .experience_list ul li {
   margin: 0px;
   float: left;
-  width: 50%;
+  width: 100%;
   position: relative;
   padding-left: 24px;
 }
@@ -2599,6 +2616,7 @@ img.svg {
   font-size: 16px;
   color: #ccc;
   line-height: 2.3;
+  text-transform: capitalize;
 }
 .glax_tm_main_responsibility_wrap .experience_list ul li:before {
   position: absolute;
@@ -3351,6 +3369,10 @@ img.svg {
   clear: both;
   float: left;
 }
+.glax_tm_footer_wrap > .react-parallax > img {
+  height: 130% !important;
+  background-position: bottom !important;
+}
 .glax_tm_footer_wrap .glax_tm_list_wrap {
   margin-bottom: 53px;
 }
@@ -3768,7 +3790,7 @@ img.svg {
   color: #ccc;
   display: block;
   font-weight: 600;
-  font-family: "Raleway";
+  font-family: "Rubik";
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -4592,7 +4614,7 @@ img.svg {
   line-height: 1.3;
 }
 .glax_tm_request_estimate_wrap .button {
-  text-align: center;
+  text-align: left;
 }
 .glax_tm_request_estimate_wrap .button a {
   text-decoration: none;
@@ -4738,8 +4760,9 @@ img.svg {
   height: 48px;
   background-color: #242633;
   position: absolute;
-  left: 5px;
-  top: 5px;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
 }
 .glax_tm_brochures_wrap ul li .inner .icon .svg {
@@ -4757,7 +4780,7 @@ img.svg {
   transition: all 0.3s ease;
 }
 .glax_tm_brochures_wrap ul li .inner span.text {
-  font-family: "Raleway";
+  font-family: "Rubik";
   font-size: 16px;
   color: #ccc;
   font-weight: 500;
@@ -4931,7 +4954,7 @@ img.svg {
 }
 .glax_tm_accordion .accordion_in .acc_head {
   position: relative;
-  font-family: "Raleway";
+  font-family: "Rubik";
   color: #181a2f;
   font-weight: 500;
   font-size: 18px;
@@ -4994,7 +5017,7 @@ img.svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #0f0f16;
+  background-color: #c70f17;
   padding: 31px 30px 33px 30px;
   margin-bottom: 70px;
 }
@@ -5027,7 +5050,7 @@ img.svg {
 }
 .glax_tm_short_contact .glax_tm_button_wrap a:hover {
   color: #fff;
-  background-color: #45a2df;
+  background-color: #253b5b;
 }
 .glax_tm_short_contact .text h3 {
   font-family: "Rubik", Sans-serif;
@@ -5042,7 +5065,7 @@ img.svg {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
-  color: #999;
+  color: #f4f4f4;
 }
 .glax_tm_line {
   width: 100%;
@@ -5073,6 +5096,9 @@ img.svg {
 .glax_tm_other_services_wrap .services_list_wrap ul {
   margin: 0px;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .glax_tm_other_services_wrap .services_list_wrap ul li {
   margin: 0px 0px 40px 0px;
@@ -6474,11 +6500,16 @@ img.svg {
     text-align: center;
     float: left;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
   }
   .glax_tm_mobile_bar_wrap .mobile_socials_wrap {
     width: 100%;
     text-align: center;
     float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
   .glax_tm_mobile_bar_wrap .mobile_topbar_wrap .short_info_wrap ul {
     display: inline-block;
@@ -6553,4 +6584,9 @@ img.svg {
   background-color: #45a2df;
   left: 0px;
   bottom: -13px;
+}
+
+.allProjects {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }

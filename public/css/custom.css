@@ -61,7 +61,7 @@
 }
 
 .glax_tm_projects_wrap .filter_wrap .opened {
-  height: 170px !important;
+  height: auto !important;
   transition: height 0.75s, opacity 0.35s, ease-in 0.35s !important;
   opacity: 1 !important;
 }
@@ -115,5 +115,5 @@
 /* Footer Parallax Custom CSS  */
 .glax_tm_universal_parallax_wrap .main_content.responsibility,
 .glax_tm_universal_parallax_wrap .main_content.footer {
-  background-color: rgba(8, 18, 37, 0.9);
+  background-color: rgba(8, 18, 37, 0.8);
 }

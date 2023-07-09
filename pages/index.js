@@ -16,11 +16,12 @@ export default function Home() {
       <Layout style={"transparrent"}>
         <HeroHeader />
         <HomeIntroduce />
-        <HomeService />
         <WhyChooseUs />
-        <Principles />
+        <HomeService />
         <Responsibility />
         <HomeProject />
+        <HomeProject flag="epc division" />
+        <Principles />
         {/* <HomeBlog /> */}
       </Layout>
     </>

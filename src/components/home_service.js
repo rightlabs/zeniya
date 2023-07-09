@@ -51,7 +51,7 @@ export default function HomeService() {
                       </span>
                     </a>
                   </div>
-                  <Link href="/service-single">
+                  <Link href="/panel">
                     <a className="service_link" />
                   </Link>
                 </div>
@@ -98,7 +98,7 @@ export default function HomeService() {
                       </span>
                     </a>
                   </div>
-                  <Link href="/service-single">
+                  <Link href="/epc">
                     <a className="service_link" />
                   </Link>
                 </div>
