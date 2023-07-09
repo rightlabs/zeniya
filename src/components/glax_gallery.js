@@ -4,7 +4,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
 const GlaxGallery = () => {
-
   const breakpoints = [4320, 2160, 1080, 640, 384, 256, 128];
 
   const unsplashLink = (id, width, height) =>
@@ -12,63 +11,48 @@ const GlaxGallery = () => {
 
   const unsplashPhotos = [
     {
-      id: "v8SjXTTI0GA",
+      id: "https://res.cloudinary.com/dypttf0yz/image/upload/v1688928806/Zeniya/safety/1_z4giis.png",
       width: 1920,
-      height: 1280
+      height: 1280,
     },
     {
-      id: "JdWU1Y7FS8g",
+      id: "https://res.cloudinary.com/dypttf0yz/image/upload/v1688928791/Zeniya/safety/2_ijkycy.png",
       width: 1920,
-      height: 1920
+      height: 1920,
     },
     {
-      id: "cw_9z3ORslk",
+      id: "https://res.cloudinary.com/dypttf0yz/image/upload/v1688928802/Zeniya/safety/3_tobak4.png",
       width: 1920,
-      height: 1276
+      height: 1276,
     },
     {
-      id: "CpSb6_OawtA",
+      id: "https://res.cloudinary.com/dypttf0yz/image/upload/v1688928799/Zeniya/safety/4_bs2lse.png",
       width: 1920,
-      height: 1279
+      height: 1279,
     },
     {
-      id: "7kSnMLGoR9w",
+      id: "https://res.cloudinary.com/dypttf0yz/image/upload/v1688928798/Zeniya/safety/5_noej2m.png",
       width: 1920,
-      height: 1267
+      height: 1280,
     },
-    {
-      id: "wIYDNL0M_p4",
-      width: 1920,
-      height: 1280
-    },
-    {
-      id: "u3Z7clTfuOo",
-      width: 1920,
-      height: 3413
-    },
-    {
-      id: "E1h3mkrJTT4",
-      width: 1920,
-      height: 1080
-    }
   ];
 
   const photos = unsplashPhotos.map((photo, index) => {
     const width = photo.width * 4;
     const height = photo.height * 4;
     return {
-      src: unsplashLink(photo.id, width, height),
+      src: photo.id,
       key: `${index}`,
       width,
       height,
       images: breakpoints.map((breakpoint) => {
         const breakpointHeight = Math.round((height / width) * breakpoint);
         return {
-          src: unsplashLink(photo.id, breakpoint, breakpointHeight),
+          src: photo.id,
           width: breakpoint,
-          height: breakpointHeight
+          height: breakpointHeight,
         };
-      })
+      }),
     };
   });
 
@@ -80,29 +64,34 @@ const GlaxGallery = () => {
     srcSet: images?.map((image) => ({
       src: image.src,
       width: image.width,
-      height: image.height
-    }))
+      height: image.height,
+    })),
   }));
 
   const [index, setIndex] = useState(-1);
 
   return (
     <>
-          {/* <PhotoAlbum
+      {/* <PhotoAlbum
             layout="rows"
             photos={photos}
             onClick={(event, photo, index) => setIndex(index)}
           />
            */}
-        <PhotoAlbum
-          photos={photos}
-          layout="rows"
-          targetRowHeight={350}
-          onClick={(event, photo, index) => setIndex(index)}
-          componentsProps={{ imageProps: { loading: "lazy" } }}
-        />
+      <PhotoAlbum
+        photos={photos}
+        layout="rows"
+        targetRowHeight={350}
+        onClick={(event, photo, index) => setIndex(index)}
+        componentsProps={{ imageProps: { loading: "lazy" } }}
+      />
 
-      <Lightbox slides={slides} open={index >= 0} close={() => setIndex(-1)} index={index} />
+      <Lightbox
+        slides={slides}
+        open={index >= 0}
+        close={() => setIndex(-1)}
+        index={index}
+      />
     </>
   );
 };

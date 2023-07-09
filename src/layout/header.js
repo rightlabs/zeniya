@@ -69,6 +69,9 @@ export default function Header({ style }) {
                   </div>
                 </li> */}
                 <li>
+                  <a href="/safety">Safety Policy</a>
+                </li>
+                <li>
                   <a href="/about">About</a>
                 </li>
                 {/* <li>
