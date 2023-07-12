@@ -78,7 +78,10 @@ export default function MobileBar() {
                 <ul>
                   <li>
                     <Link href="#">
-                      <a>
+                      <a
+                        href="https://www.facebook.com/zeniyagroup/"
+                        target="_blank"
+                      >
                         <i className="xcon-facebook" />
                       </a>
                     </Link>
@@ -86,7 +89,10 @@ export default function MobileBar() {
                   {/* <li><Link href="#"><a><i className="xcon-twitter" /></a></Link></li> */}
                   <li>
                     <Link href="#">
-                      <a>
+                      <a
+                        href="https://www.instagram.com/zeniyagroup"
+                        target="_blank"
+                      >
                         <i className="xcon-instagram" />
                       </a>
                     </Link>
