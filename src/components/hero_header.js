@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function HeroHeader() {
   const slide = [
@@ -64,7 +64,7 @@ export default function HeroHeader() {
                 delay: 3000,
                 disableOnInteraction: false,
               }}
-              modules={[Pagination, Navigation]}
+              modules={[Autoplay, Pagination, Navigation]}
               className="swiper-wrapper"
             >
               {slide.map((item, i) => (

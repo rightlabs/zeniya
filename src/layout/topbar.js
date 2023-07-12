@@ -45,7 +45,10 @@ export default function TopBar({ isTopbar, activeTopbar }) {
               <div className="share_wrap">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a
+                      href="https://www.instagram.com/zeniyagroup/"
+                      target="_blank"
+                    >
                       <i className="xcon-facebook" />
                     </a>
                   </li>
@@ -55,7 +58,10 @@ export default function TopBar({ isTopbar, activeTopbar }) {
                     </a>
                   </li> */}
                   <li className="icon-insta">
-                    <a href="#">
+                    <a
+                      href="https://www.facebook.com/zeniyagroup"
+                      target="_blank"
+                    >
                       <i className="xcon-instagram" />
                     </a>
                   </li>
